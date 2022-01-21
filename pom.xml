@@ -50,7 +50,7 @@
                 </executions>
                 <configuration>
                   <apiToken>${env.SNYK_TOKEN}</apiToken>
-                  <skip>true<skip>
+                  <skip>true</skip>
                   <args>
                     <arg>--all-projects</arg>
                     <arg>--scan-all-unmanaged</arg>
