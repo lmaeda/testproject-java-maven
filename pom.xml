@@ -38,7 +38,7 @@
                   <execution>
                     <id>snyk-test</id>
                     <goals>
-                      <goal>test --fail-on=upgradable --severity-threshold=medium</goal>
+                      <goal>test</goal>
                     </goals>
                   </execution>
                   <execution>
