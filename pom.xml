@@ -50,6 +50,12 @@
                 </executions>
                 <configuration>
                   <apiToken>${env.SNYK_TOKEN}</apiToken>
+                  <args>
+                    <arg>--all-projects</arg>
+                    <arg>--fail-on=upgradable</arg>
+                    <arg>--severity-threshold=high</arg>
+                    <arg>--org=luc.maeda</arg>
+                  </args>
                 </configuration>
               </plugin>
         </plugins>
